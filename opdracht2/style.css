@@ -16,6 +16,10 @@ header, footer{
     background-color: salmon;
 }
 
+header li, footer li{
+    list-style-type:none;
+
+}
 main{
     height: 80%;
     background-color: bisque;
@@ -24,8 +28,13 @@ main{
 .logo-header{
     margin: 20px;
 }
-
-.logo-main{
+nav li{
+    margin-left:10px;
+}
+header img {
+    width:100px;
+}
+main img{
     width:400px;
 }
 
@@ -36,5 +45,30 @@ main{
 header nav ul{
     display:flex;
 }
+
+header{
+    padding-left: 20px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+div h1{
+    font-size: 50px;
+}
+
+ul{
+    border: 1px dashed black;
+}
+
+h3 ~p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img ~ ul {
+    color:red;
+    list-style-type: circle;
+}
+
 /* Einde aangeleverde code, laten staan, niet veranderen */
 /* Vul hieronder je eigen code */
