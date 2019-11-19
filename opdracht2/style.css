@@ -6,10 +6,35 @@ html, body{
 body{
     display: flex;
     flex-direction: column;
+} 
+header, main, footer{
+    width: 100%;
 }
 
-img{
-    width: 200px;
+header, footer{
+    height: 20%;
+    background-color: salmon;
+}
+
+main{
+    height: 80%;
+    background-color: bisque;
+}
+
+.logo-header{
+    margin: 20px;
+}
+
+.logo-main{
+    width:400px;
+}
+
+.logo-footer{
+    border: 1px solid black;
+}
+
+header nav ul{
+    display:flex;
 }
 /* Einde aangeleverde code, laten staan, niet veranderen */
 /* Vul hieronder je eigen code */
