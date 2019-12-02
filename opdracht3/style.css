@@ -1,2 +1,48 @@
+* {
+    text-decoration:none;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
 
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header ul li {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul li {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    background-color: yellow;
+
+  
+}
+
+header ul {
+    background-color: salmon;
+}
+
+li:hover {
+    background-color: gold;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+
+}
 
